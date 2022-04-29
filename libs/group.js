@@ -18,6 +18,16 @@ class Group {
             this.particles[i].display()
         }
     }
+
+    applyForce(force) {
+        for (let i = 0; i < this.particles.length; i++) {
+            this.particles[i].applyForce(force)
+        }
+    }
+
+    tot_particles() {
+        return this.particles.length
+    }
 }
 
 class Bubbles extends Group {

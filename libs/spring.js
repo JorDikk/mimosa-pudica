@@ -19,8 +19,8 @@ class Spring {
     }
 
     display() {
-        strokeWeight(2)
-        stroke(200)
+        strokeWeight(10)
+        stroke(255)
         line(this.b1.position.x, this.b1.position.y, this.b2.position.x, this.b2.position.y)
     }
 }
